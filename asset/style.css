@@ -928,7 +928,7 @@ footer .container-f-end .start h1{
         width: 12%;
     }
     header .header-container  .active{
-       width:50%;
+       width:56%;
        height: 100vh;
        gap: 2rem;
     }
@@ -1010,6 +1010,10 @@ section .container-str img{
   section .leicon{
     height: 50vh;
   }
+
+  section .container-p p{
+    padding: 1rem;
+ }
 }
 
 @media(max-width:900px){
@@ -1056,6 +1060,9 @@ section .container-str img{
        section .container-bitcoin img{
         display: none;
        }
+     section .container-p p{
+        padding: 1rem;
+     }
        section .container-str .img-bg{
         margin-top: -13rem;
        }
@@ -1080,7 +1087,7 @@ section .container-str img{
         transform: translateY();
        }
       
-
+       
        section .container-str .content h1{
         font-size: 1.7rem;
        }
@@ -1202,9 +1209,8 @@ section .container-p h1{
         font-size: 1rem;
     }
 
-    section .leicon{
-        height: 140vh;
-    }section .container{
+   
+    section .container{
         padding:  .4rem;
     }
     section .container h1{
@@ -1371,9 +1377,63 @@ section .container-swipes .cards{
  }
  section .container-swipes .cards .card .btn{
    margin-bottom: 1rem;
- }
-}
+ } 
 
+ section .leicon{
+    padding: 3rem 1rem;
+
+ }
+
+ section .leicon .leicon1{
+    padding: 0;
+}
+section .leicon .leicon2{
+    padding: 0;
+}
+section .leicon .leicon3{
+    padding: 0;
+}
+section .leicon .leicon4{
+    padding: 0;
+}
+}
+ @media (max-width:390px){
+    section .container-str{
+        padding-top: 8rem;
+       padding-left:  3.3rem;
+       padding-bottom: 1rem;
+    }
+    section .container-str .content{
+      padding-top:9rem;
+    }
+   
+ }
+ @media (max-width: 375px){
+      section .container-str{
+        padding-top: 10rem;
+       padding-left:  3.3rem;
+       padding-right: 1rem;
+       padding-bottom: 1rem;
+    }
+    section .container-str .content{
+        padding-top:14rem;
+      }
+      section .leicon{
+        gap: 1rem;
+      }
+      section .leicon .leicon1{
+        padding: 0;
+      }
+      section .leicon .leicon2{
+        padding: 0;
+      }
+      section .leicon .leicon3{
+        padding: 0;
+      }
+      section .leicon .leicon4{
+        padding: 0;
+      }
+ }
 
 @media (max-width: 360px){
     section .container-bitcoin .label{
@@ -1385,5 +1445,11 @@ section .container-swipes .cards{
      }
      section .container-bitcoin .label .label3{
         margin-top: 15px;
+     }
+
+     section .leicon{
+        gap: 1.5rem;
+        height: 170vh;
+      
      }
 }
